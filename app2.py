@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import joblib
+import streamlit as st
 
 data = {
     'horsepower': [100, 150, 120, 200, 250, 180],
